@@ -80,7 +80,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: payload
+          name: titan-core
       - name: Create draft release
         env:
           GH_TOKEN: ${{ github.token }}
